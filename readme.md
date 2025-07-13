@@ -1,4 +1,4 @@
-# 🔢 GF(2^256) Binary Field Multiplication in Go
+# 🔢 $$\ GF(2^256) \$$ Binary Field Multiplication in Go
 
 This Go program implements multiplication over the binary finite field **GF(2²⁵⁶)**, using the irreducible polynomial:
 
