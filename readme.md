@@ -1,8 +1,8 @@
-# 🔢 $$\ GF(2^256) \$$ Binary Field Multiplication in Go
+# 🔢 $$\ GF(2^{256}) \$$ Binary Field Multiplication in Go
 
 This Go program implements multiplication over the binary finite field **GF(2²⁵⁶)**, using the irreducible polynomial:
 
-implements binary field multiplication over GF(2^256) using a polynomial reduction method based on the irreducible polynomial $$\ 𝑓 ( 𝑋 ) = 𝑋^256 + 𝑋^10 + 𝑋^5 + 𝑋^2 + 1  \$$.
+implements binary field multiplication over $$\ GF(2^{256}) \$$ using a polynomial reduction method based on the irreducible polynomial $$\ 𝑓 ( 𝑋 ) = 𝑋^{256} + 𝑋^{10} + 𝑋^5 + 𝑋^2 + 1  \$$.
 
 
 The implementation is inspired by the techniques described in _"Guide to Elliptic Curve Cryptography"_ by Hankerson, Vanstone, and Menezes. It uses:
