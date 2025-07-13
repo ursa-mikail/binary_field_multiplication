@@ -8,8 +8,8 @@ implements binary field multiplication over $$\ GF(2^{256}) \$$ using a polynomi
 The implementation is inspired by the techniques described in _"Guide to Elliptic Curve Cryptography"_ by Hankerson, Vanstone, and Menezes. It uses:
 
 - **Little-endian representation** for 256-bit numbers.
-- **Right-to-left comb method** for polynomial multiplication (Algorithm 2.34).
-- A tailored **modular reduction** step (based on Figure 2.9) using the specific irreducible polynomial.
+- **Right-to-left comb method** for polynomial multiplication .
+- A tailored **modular reduction** step using the specific irreducible polynomial.
 
 ---
 
@@ -17,7 +17,7 @@ The implementation is inspired by the techniques described in _"Guide to Ellipti
 
 ### `binaryFieldMul(A, B []byte) []byte`
 
-This function takes two 32-byte slices `A` and `B` and returns their product in GF(2^256) after reduction.
+This function takes two 32-byte slices `A` and `B` and returns their product in $$\ GF(2^{256}) \$$ after reduction.
 
 ### `main()`
 
