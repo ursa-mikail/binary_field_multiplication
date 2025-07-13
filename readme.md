@@ -8,8 +8,8 @@ implements binary field multiplication over $$\ GF(2^{256}) \$$ using a polynomi
 The implementation is inspired by the techniques described in _"Guide to Elliptic Curve Cryptography"_ by Hankerson, Vanstone, and Menezes. It uses:
 
 - **Little-endian representation** for 256-bit numbers.
-- **Right-to-left comb method** for polynomial multiplication .
-- A tailored **modular reduction** step using the specific irreducible polynomial.
+- **Right-to-left comb method** for polynomial multiplication (Algorithm 2.34).
+- A tailored **modular reduction** step (based on Figure 2.9) using the specific irreducible polynomial.
 
 ---
 
